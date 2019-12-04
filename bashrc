@@ -117,4 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 # Add the .scripts folder and GAE to PATH
-export PATH=$PATH:/home/work/.scripts:/usr/lib/google-cloud-sdk/platform/google_appengine
+export PATH=$PATH:/home/deviaan/.scripts:/usr/lib/google-cloud-sdk/platform/google_appengine

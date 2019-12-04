@@ -1,7 +1,7 @@
 syntax on
 set number
 set relativenumber
-colorscheme angr
+colorscheme molokai
 set tabstop=4
 set softtabstop=0
 set expandtab
