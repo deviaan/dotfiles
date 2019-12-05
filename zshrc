@@ -35,3 +35,15 @@ zstyle ':completion:*' verbose true
 
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
+
+# Add .scripts to path
+export PATH=$PATH:~/.scripts
+
+# Aliases
+alias tmux="TERM=screen-256color-bce tmux"
+
+# Powerline
+source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
+
+# Syntax
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
