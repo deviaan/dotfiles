@@ -583,5 +583,6 @@ c.TerminalInteractiveShell.simple_prompt = False
 c.TerminalInteractiveShell.prompts_class = PowerlinePrompts
 
 c.InteractiveShellApp.exec_lines = [
-        '%load_ext autoreload', '$autoreload 2'
+        '%load_ext autoreload', 
+        '%autoreload 2'
         ]
