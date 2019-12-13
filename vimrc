@@ -1,3 +1,5 @@
+" Basic Setup
+set nocompatible
 syntax on
 set number
 set relativenumber
@@ -9,6 +11,13 @@ set shiftwidth=4
 set incsearch
 set cursorline
 filetype plugin indent on
+
+" Fuzzy Finding
+set path+=**
+set wildmenu
+
+" Tags
+command! MakeTags !ctags -R
 
 " Powerline
 set laststatus=2
