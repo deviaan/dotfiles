@@ -1,9 +1,10 @@
 " Basic Setup
 set nocompatible
 syntax on
+set termguicolors
 set number
 set relativenumber
-colorscheme molokai
+colorscheme sweet_dark
 set tabstop=4
 set softtabstop=0
 set expandtab
