@@ -4,7 +4,7 @@ syntax on
 set termguicolors
 set number
 set relativenumber
-colorscheme sweet_dark
+colorscheme solarized8_high
 set tabstop=4
 set softtabstop=0
 set expandtab
