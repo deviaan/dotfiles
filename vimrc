@@ -4,7 +4,8 @@ syntax on
 set termguicolors
 set number
 set relativenumber
-colorscheme solarized8_high
+colorscheme carbonized-dark
+set background=dark
 set tabstop=4
 set softtabstop=0
 set expandtab
