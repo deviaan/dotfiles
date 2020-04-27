@@ -48,6 +48,3 @@ source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
 
 # Syntax
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Start TMUX automatically
-if [ -z "$TMUX" ]; then; tmux; fi
