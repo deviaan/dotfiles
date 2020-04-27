@@ -42,6 +42,7 @@ export PATH=$PATH:~/.scripts
 
 # Aliases
 alias tmux="TERM=screen-256color-bce tmux"
+alias ls='ls --color=auto'
 
 # Powerline
 source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
