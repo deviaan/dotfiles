@@ -4,7 +4,7 @@ syntax on
 set termguicolors
 set number
 set relativenumber
-colorscheme carbonized-dark
+colorscheme molokai
 set background=dark
 set tabstop=4
 set softtabstop=0
