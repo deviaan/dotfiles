@@ -51,7 +51,7 @@ source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # HLA Files
-hlalib=/usr/local/hla/hlalib
-hlainc=/usr/local/hla/include
+hlalib=/usr/hla/hlalib
+hlainc=/usr/hla/include
 export hlalib
 export hlainc

@@ -126,7 +126,7 @@ POWERLINE_BASH_SELECT=1
 . /home/deviaan/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
 
 # HLA files
-hlalib=/usr/local/hla/hlalib
-hlainc=/usr/local/hla/include
+hlalib=/usr/hla/hlalib
+hlainc=/usr/hla/include
 export hlalib
 export hlainc
