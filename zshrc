@@ -53,5 +53,7 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # HLA Files
 hlalib=/usr/hla/hlalib
 hlainc=/usr/hla/include
+hlatemp=/tmp
 export hlalib
 export hlainc
+export hlatemp

@@ -128,5 +128,7 @@ POWERLINE_BASH_SELECT=1
 # HLA files
 hlalib=/usr/hla/hlalib
 hlainc=/usr/hla/include
+hlatemp=/temp
 export hlalib
 export hlainc
+export hlatemp
