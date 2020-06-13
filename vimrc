@@ -1,5 +1,19 @@
-" Basic Setup
+" Set up Vundle
 set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" All plugins go here
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'Konfekt/FastFold'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'dense-analysis/ale'
+
+call vundle#end()
+filetype plugin indent on
+
+" Basic Setup
 syntax on
 set termguicolors
 set number
@@ -12,7 +26,12 @@ set expandtab
 set shiftwidth=4
 set incsearch
 set cursorline
-filetype plugin indent on
+
+" Code folding
+set foldmethod=syntax
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
 
 " Fuzzy Finding
 set path+=**
@@ -27,6 +46,7 @@ python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()
 python3 del powerline_setup
 
-" Ale settings
+" ALE settings
 packloadall
 silent! helptags ALL
+
