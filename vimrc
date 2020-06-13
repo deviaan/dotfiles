@@ -49,4 +49,5 @@ python3 del powerline_setup
 " ALE settings
 packloadall
 silent! helptags ALL
+let g:ale_lint_on_enter = 0
 
