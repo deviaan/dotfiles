@@ -58,3 +58,6 @@ hlatemp=/tmp
 export hlalib
 export hlainc
 export hlatemp
+
+# VIM Mode
+bindkey -v

@@ -133,3 +133,6 @@ hlatemp=/temp
 export hlalib
 export hlainc
 export hlatemp
+
+# VI mode
+set -o vi
