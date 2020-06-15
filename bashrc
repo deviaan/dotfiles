@@ -136,3 +136,4 @@ export hlatemp
 
 # VI mode
 set -o vi
+bind -m vi-insert "\C-l":clear-screen

@@ -6,8 +6,6 @@ call vundle#begin()
 
 " All plugins go here
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Konfekt/FastFold'
-Plugin 'tmhedberg/SimpylFold'
 Plugin 'dense-analysis/ale'
 
 call vundle#end()
