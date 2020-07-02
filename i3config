@@ -238,7 +238,7 @@ for_window [class="Kmix"] floating enable; border none
 for_window [class="Klipper"] floating enable; border none
 for_window [class="Plasmoidviewer"] floating enable; border none
 for_window [class="(?i)*nextcloud*"] floating disable
-for_window [class="plasmashell" window_type="notification"] floating enable, border none, move position 3300px 20px
+for_window [class="plasmashell" window_type="notification"] floating enable, border none, move position 3450px 30px
 no_focus [class="plasmashell" window_type="notification"] 
 
 exec_always --no-startup-id feh --bg-fill ~/.wallpaper/wp1.jpg --bg-fill ~/.wallpaper/wp2.png
