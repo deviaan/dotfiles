@@ -231,7 +231,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color     
 
 
 # KDE Stuff
-for_window [class="yakuake"] floating enable
+for_window [class="yakuake"] floating enable; border none
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
 for_window [class="plasmashell"] floating enable;
 for_window [class="Plasma"] floating enable; border none
