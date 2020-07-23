@@ -61,3 +61,12 @@ export hlatemp
 
 # VIM Mode
 bindkey -v
+
+# Locale settings
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# Pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

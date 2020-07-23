@@ -137,3 +137,6 @@ export hlatemp
 # VI mode
 set -o vi
 bind -m vi-insert "\C-l":clear-screen
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

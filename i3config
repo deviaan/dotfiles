@@ -139,6 +139,7 @@ assign [class="Slack"] $ws4
 assign [class="discord"] $ws5
 assign [class="Signal"] $ws5
 assign [class="Clementine"] $ws6
+assign [class="Vivaldi-stable"] $ws3
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -183,10 +184,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym h resize shrink width 10 px or 10 ppt
-        bindsym j resize grow height 10 px or 10 ppt
-        bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 5 px or 5 ppt
+        bindsym j resize grow height 5 px or 5 ppt
+        bindsym k resize shrink height 5 px or 5 ppt
+        bindsym l resize grow width 5 px or 5 ppt
 
         # same bindings, but for the arrow keys
         #bindsym Left resize shrink width 10 px or 10 ppt
@@ -245,5 +246,5 @@ for_window [class="(?i)*nextcloud*"] floating disable
 for_window [class="plasmashell" window_type="notification"] floating enable, border none, move position 3450px 30px
 no_focus [class="plasmashell" window_type="notification"] 
 
-exec_always --no-startup-id feh --bg-fill ~/.wallpaper/wp1.jpg --bg-fill ~/.wallpaper/wp2.png
+exec_always --no-startup-id feh --bg-fill ~/.wallpaper/wp2.png --bg-fill ~/.wallpaper/wp2.png
 exec_always --no-startup-id compton --config ~/.config/compton.conf -b
