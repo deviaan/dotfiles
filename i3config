@@ -134,7 +134,7 @@ workspace $ws8 output $ddpport
 # Assign apps to given workspace
 assign [class="jetbrains-pycharm"] $ws1
 assign [class="Google-chrome"] $ws2
-assign [class="Firefox"] $ws3
+assign [class="Firefox"] $ws2
 assign [class="Slack"] $ws4
 assign [class="discord"] $ws5
 assign [class="Signal"] $ws5
@@ -184,10 +184,16 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym h resize shrink width 5 px or 5 ppt
-        bindsym j resize grow height 5 px or 5 ppt
-        bindsym k resize shrink height 5 px or 5 ppt
-        bindsym l resize grow width 5 px or 5 ppt
+        bindsym h resize shrink width 1 px or 1 ppt
+        bindsym j resize grow height 1 px or 1 ppt
+        bindsym k resize shrink height 1 px or 1 ppt
+        bindsym l resize grow width 1 px or 1 ppt
+
+        # Bigger changes with shift
+        bindsym H resize shrink width 10 px or 10 ppt
+        bindsym J resize grow height 10 px or 10 ppt
+        bindsym K resize shrink height 10 px or 10 ppt
+        bindsym L resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         #bindsym Left resize shrink width 10 px or 10 ppt

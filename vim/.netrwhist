@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/deviaan/.mozilla/firefox/rgnqe7i2.default-release'
 let g:netrw_dirhist_7='/home/deviaan/.config/configstore'
 let g:netrw_dirhist_6='/home/deviaan/.scripts'
 let g:netrw_dirhist_5='/home/deviaan/.dotfiles/.git'
