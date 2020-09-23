@@ -40,6 +40,9 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 # Add .scripts to path
 export PATH=$PATH:~/.scripts
 
+# Add additional scripts to path
+export PATH=$PATH:~/.local/bin
+
 # Aliases
 alias tmux="TERM=screen-256color-bce tmux"
 alias ls='ls --color=auto'
@@ -67,6 +70,9 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Pyenv
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+export PATH=$PATH:$HOME/.pyenv/bin
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi
