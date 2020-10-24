@@ -140,3 +140,9 @@ bind -m vi-insert "\C-l":clear-screen
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Extra compose chars
+export GTK_IM_MODULE="xim"

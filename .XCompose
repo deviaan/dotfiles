@@ -1,0 +1,6 @@
+include "%L"
+
+# Additional Math symbols
+<Multi_key> <e> <parenright>       : "∈"   U2208 # An Element of
+<Multi_key> <e> <slash>                 : "∉"   U2209 # Not an Element of
+<Multi_key> <E> <greater>           : "∑"   U2211 # Summation

@@ -76,3 +76,9 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
   eval "$(pyenv virtualenv-init -)"
 fi
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Extra compose chars
+export GTK_IM_MODULE="xim"
