@@ -1,6 +1,32 @@
 include "%L"
 
-# Additional Math symbols
-<Multi_key> <e> <parenright>       : "∈"   U2208 # An Element of
-<Multi_key> <e> <slash>                 : "∉"   U2209 # Not an Element of
-<Multi_key> <E> <greater>           : "∑"   U2211 # Summation
+# Sets
+<Multi_key> <A> <v>                         : "∀"   U2200 # For all
+<Multi_key> <E> <m>                         : "∃"   U2203 # There exists
+<Multi_key> <E> <slash>                     : "∄"   U2204 # There doesn't exist
+<Multi_key> <0> <slash>                     : "∅"   U2205 # Empty set
+<Multi_key> <e> <parenright>                : "∈"   U2208 # An Element of
+<Multi_key> <e> <slash>                     : "∉"   U2209 # Not an Element of
+
+<Multi_key> <n> <s>                         : "∩"   U2229 # Intersection
+<Multi_key> <u> <s>                         : "∪"   U222A # Union
+
+<Multi_key> <parenleft> <less>              : "⊂"   U2282 # Subset of
+<Multi_key> <parenright> <greater>          : "⊃"   U2283 # Superset of
+<Multi_key> <parenleft> <slash>             : "⊄"   U2284 # Not a subset of
+<Multi_key> <parenright> <slash>            : "⊅"   U2285 # Not a superset of
+<Multi_key> <parenleft> <equal>             : "⊆"   U2286 # Subset of or equal to
+<Multi_key> <parenright> <equal>            : "⊇"   U2287 # Superset of or equal to
+<Multi_key> <parenleft> <exclam>            : "⊈"   U2288 # Not subset or equal to
+<Multi_key> <parenright> <exclam>           : "⊉"   U2289 # Not super set or equal to
+
+<Multi_key> <parenleft> <plus> <parenright> : "⊕"   U2295 # Cicrcle plus
+
+<Multi_key> <N> <s>                         : "⋂"   U22C2 # Intersection
+<Multi_key> <U> <s>                         : "⋃"   U22C3 # Union
+
+<Multi_key> <N> <N>                         : "ℕ"   U2115 # Natural Numbers
+<Multi_key> <Q> <Q>                         : "ℚ"   U211A # Rational Numbers
+<Multi_key> <R> <R>                         : "ℝ"   U211D # Real Numbers
+<Multi_key> <Z> <Z>                         : "ℤ"   U2124 # Integers
+
