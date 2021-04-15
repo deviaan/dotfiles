@@ -7,6 +7,7 @@ call vundle#begin()
 " All plugins go here
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'dense-analysis/ale'
+Plugin 'preservim/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
@@ -48,4 +49,8 @@ python3 del powerline_setup
 packloadall
 silent! helptags ALL
 let g:ale_lint_on_enter = 0
+
+" Insert newlines
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
 

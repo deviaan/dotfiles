@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/deviaan/Documents/Work/notes'
+let g:netrw_dirhist_1='/home/deviaan/.aws'
 let g:netrw_dirhist_0='/home/deviaan/Downloads/Docket-Alarm-Programming-Test'
 let g:netrw_dirhist_9='/home/deviaan/Downloads'
 let g:netrw_dirhist_8='/home/deviaan/.mozilla/firefox/rgnqe7i2.default-release'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_6='/home/deviaan/.scripts'
 let g:netrw_dirhist_5='/home/deviaan/.dotfiles/.git'
 let g:netrw_dirhist_4='/home/deviaan/.dotfiles'
 let g:netrw_dirhist_3='/home/deviaan/.scripts'
-let g:netrw_dirhist_2='/home/deviaan/.ipython/nbextensions'
-let g:netrw_dirhist_1='/home/deviaan/.ipython'
