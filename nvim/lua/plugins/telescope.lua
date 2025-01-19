@@ -5,6 +5,9 @@ return {
 		depedencies = { "nvim-lua/planery.nvim" },
 	},
 	{
+		"smartpde/telescope-recent-files"
+	},
+	{
 		"nvim-telescope/telescope-ui-select.nvim",
 		config = function()
 			require("telescope").setup({
@@ -14,7 +17,9 @@ return {
 					},
 				},
 			})
+
 			require("telescope").load_extension("ui-select")
+			require("telescope").load_extension("recent_files")
 		end,
 	},
 }
