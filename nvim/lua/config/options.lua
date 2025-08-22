@@ -1,6 +1,6 @@
 -- Clipboard & auto complete
-vim.opt.clipboard = 'unnamedplus'
-vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
+vim.opt.clipboard = "unnamedplus"
+vim.opt.completeopt = { "menu", "menuone", "noselect" }
 
 -- Tab settings
 vim.opt.tabstop = 4
@@ -15,10 +15,10 @@ vim.opt.cursorline = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.termguicolors = true
-vim.opt.guicursor = ''
+vim.opt.guicursor = ""
 vim.opt.scrolloff = 8
-vim.opt.colorcolumn = '101'
-vim.opt.signcolumn = 'yes'
+vim.opt.colorcolumn = "101"
+vim.opt.signcolumn = "yes"
 
 -- Searching
 vim.opt.incsearch = true
@@ -29,4 +29,4 @@ vim.opt.smartcase = true
 -- Undo settings
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv('HOME') .. '/.vim/undodir'
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
