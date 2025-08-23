@@ -13,6 +13,12 @@ vim.keymap.set("n", "<C-j>", "<C-w>j", opts)
 vim.keymap.set("n", "<C-k>", "<C-w>k", opts)
 vim.keymap.set("n", "<C-l>", "<C-w>l", opts)
 
+-- Window resizing 
+-- vim.keymap.et('n', '<C-Left>', '<C-w><')
+-- vim.keymap.et('n', '<C-Down>', '<C-w>-')
+-- vim.keymap.et('n', '<C-Up>', '<C-w>+')
+-- vim.keymap.et('n', '<C-Right>', '<C-w>>')
+
 -- Static cursor while paging
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
