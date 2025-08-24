@@ -16,3 +16,9 @@ Default config based on [Typecraft's](https://youtube.com/@typecraft_dev?si=MlLI
 
 Link: `ln -s dotfiles/tmux.conf ~/.tmux.conf`
 Plugin manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+
+## w3m
+
+Mostly adapted from [Arch Wiki](https://wiki.archlinux.org/title/W3m)
+
+Link: `ln -s dotfiles/w3m ~/.w3m`

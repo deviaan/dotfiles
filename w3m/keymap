@@ -1,0 +1,37 @@
+# Link navigation
+keymap f COMMAND "RESHAPE ; LINK_BEGIN ; GOTO_LINK"
+keymap F COMMAND "RESHAPE ; LINK_BEING ; TAB_LINK"
+
+# Some Vi style navitations
+keymap $ LINE_END
+keymap ^ LINE_BEGIN
+keymap G END
+keymap gg BEGIN
+keymap w NEXT_WORD
+keymap b PREV_WORD
+keymap j COMMAND "MOVE_DOWN1"
+keymap k COMMAND "MOVE_UP1"
+keymap H BACK
+keymap r RELOAD
+
+# Tab movements
+keymap J NEXT_TAB
+keymap K PREV_TAB
+keymap o GOTO
+keymap O TAB_GOTO
+
+# Searching
+keymap / WHEREIS
+keymap ? SEARCH_BACK
+keymap n SEARCH_NEXT
+keymap N SEARCH_PREV
+
+# Commands
+keymap :: COMMAND
+keymap :help HELP
+keymap :hist HISTORY
+keymap :q EXIT
+keymap :settings OPTIONS
+
+# Clipboard
+keymap yy EXTERN 'printf %s | xclip -selection clipboard'
