@@ -19,6 +19,6 @@ Plugin manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/t
 
 ## w3m
 
-Mostly adapted from [Arch Wiki](https://wiki.archlinux.org/title/W3m)
+Mostly adapted from [Arch Wiki](https://wiki.archlinux.org/title/W3m) and [W3M Rocks](https://w3m.rocks/keymap)
 
 Link: `ln -s dotfiles/w3m ~/.w3m`
