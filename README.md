@@ -2,6 +2,11 @@
 
 Repo to hold my dotfiles so that I can easily sync them between computers.
 
+### Termux
+When linking on termux, the full path to the dotfiles folder must be used.
+
+ie: `/data/data/com.termux/files/home`
+
 
 ## Nvim
 
@@ -22,3 +27,10 @@ Plugin manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/t
 Mostly adapted from [Arch Wiki](https://wiki.archlinux.org/title/W3m) and [W3M Rocks](https://w3m.rocks/keymap)
 
 Link: `ln -s dotfiles/w3m ~/.w3m`
+
+
+## Taskwarrior
+
+Link: `ln -s dotfiles/task ~/.config/task`
+
+

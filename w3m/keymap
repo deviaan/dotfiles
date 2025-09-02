@@ -95,12 +95,12 @@ keymap n    SEARCH_NEXT
 # }}}
 # Tab operations {{{
 
-keymap {        PREV_TAB
-keymap }        NEXT_TAB
+keymap [        PREV_TAB
+keymap ]        NEXT_TAB
 
 # Move tabs around
-keymap C-{      TAB_LEFT
-keymap C-}      TAB_RIGHT
+keymap {        TAB_LEFT
+keymap }        TAB_RIGHT
 
 keymap C-w      CLOSE_TAB
 keymap C-t      NEW_TAB
