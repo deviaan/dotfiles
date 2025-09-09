@@ -19,7 +19,7 @@ Link: `ln -s dotfiles/nvim ~/.config/nvim`
 Largely taken from [gikeymarcia](https://github.com/gikeymarcia/tmux-config)
 Default config based on [Typecraft's](https://youtube.com/@typecraft_dev?si=MlLIzreirX12VZLy) videos.
 
-Link: `ln -s dotfiles/tmux.conf ~/.tmux.conf`
+Link: `ln -s dotfiles/tmux.conf ~/.tmux.conf`  
 Plugin manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
 ## w3m
@@ -34,3 +34,7 @@ Link: `ln -s dotfiles/w3m ~/.w3m`
 Link: `ln -s dotfiles/task ~/.config/task`
 
 
+## Wezterm
+Basic config from using the [docs](https://wezterm.org/config/files.html#configuration-overrides)  
+
+Link: `ln -s dotfiles/wezterm ~/.config/wezterm`
