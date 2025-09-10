@@ -22,6 +22,8 @@ Default config based on [Typecraft's](https://youtube.com/@typecraft_dev?si=MlLI
 Link: `ln -s dotfiles/tmux.conf ~/.tmux.conf`  
 Plugin manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
+Use `<C-a>I` to install the plugins
+
 ## w3m
 
 Mostly adapted from [Arch Wiki](https://wiki.archlinux.org/title/W3m) and [W3M Rocks](https://w3m.rocks/keymap)
@@ -32,9 +34,15 @@ Link: `ln -s dotfiles/w3m ~/.w3m`
 ## Taskwarrior
 
 Link: `ln -s dotfiles/task ~/.config/task`
+Vit is my preferred front end, installed with `pipx`
 
 
 ## Wezterm
 Basic config from using the [docs](https://wezterm.org/config/files.html#configuration-overrides)  
 
 Link: `ln -s dotfiles/wezterm ~/.config/wezterm`
+
+### Todo:
+- [ ] convert everything to use .config
+- [ ] add instructions for nb
+- [ ] shell script to install everything
