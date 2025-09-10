@@ -9,7 +9,15 @@ return {
 		"mason-org/mason-lspconfig.nvim",
 		opts = {
 			-- If an LSP is needed everywhere, add it here
-			ensure_installed = {},
+			ensure_installed = {
+                "lua_ls",
+                "pyright",
+                "rust_analyzer",
+                "clangd",
+                "perlnavigator",
+                "html",
+                "cssls",
+            },
 		},
 	},
 
@@ -24,6 +32,25 @@ return {
 			lspconfig.lua_ls.setup({
                 capabilities = capabilities
             })
+			lspconfig.pyright.setup({
+                capabilities = capabilities
+            })
+			lspconfig.rust_analyzer.setup({
+                capabilities = capabilities
+            })
+			lspconfig.clangd.setup({
+                capabilities = capabilities
+            })
+			lspconfig.perlnavigator.setup({
+                capabilities = capabilities
+            })
+            lspconfig.html.setup({
+                capabilities = capabilities
+            })
+            lspconfig.cssls.setup({
+                capabilities = capabilities
+            })
+
 
 		end,
 	},
