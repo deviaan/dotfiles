@@ -17,6 +17,7 @@ return {
                 "perlnavigator",
                 "html",
                 "cssls",
+                "raku_navigator",
             },
 		},
 	},
@@ -50,6 +51,10 @@ return {
             lspconfig.cssls.setup({
                 capabilities = capabilities
             })
+            lspconfig.raku_navigator.setup({
+                capabilities = capabilities
+            })
+
 
 
 		end,
