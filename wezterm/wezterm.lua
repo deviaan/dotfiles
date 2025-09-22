@@ -11,4 +11,12 @@ config.font_size = 12.0
 config.hide_tab_bar_if_only_one_tab = true
 config.window_decorations = "None"
 
+-- Full screen command
+local mux = wezterm.mux
+wezterm.on("gui-startup", function(cmd)
+    local tab, pane, window = mux.spawn_window(cmd or {})
+    window:gui_window():maximize()
+    end
+)
+
 return config
