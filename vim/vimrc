@@ -73,6 +73,9 @@ set softtabstop=4
 set expandtab
 set smarttab
 
+" OK default colorscheme
+colorscheme sorbet 
+
 " Show mode in status line
 set showmode
 
