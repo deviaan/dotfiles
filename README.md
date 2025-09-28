@@ -8,6 +8,14 @@ When linking on termux, the full path to the dotfiles folder must be used.
 ie: `/data/data/com.termux/files/home`
 
 
+## Vim
+
+Vimrc made from piecing together options I've had throughout the years.
+For tmxu integration, use `git clone git@github.com:christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator`
+
+`ln -s dotfiles/vim/vimrc ~/.vimrc`
+
+
 ## Nvim
 
 Default config based on [Typecraft's](https://youtube.com/@typecraft_dev?si=MlLIzreirX12VZLy) videos.
@@ -45,4 +53,4 @@ Link: `ln -s dotfiles/wezterm ~/.config/wezterm`
 ### Todo:
 - [ ] convert everything to use .config
 - [ ] add instructions for nb
-- [ ] shell script to install everything
+- [ ] shell script/make file to install everything
