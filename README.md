@@ -15,6 +15,13 @@ For tmxu integration, use `git clone git@github.com:christoomey/vim-tmux-navigat
 
 `ln -s dotfiles/vim/vimrc ~/.vimrc`
 
+### Installing Plugins
+
+You no longer need a plugin manager for plugins using Vim 8+. Instead, just clone any plugins into .vim/pack/start and restart vim.
+
+- [Tmux navigator](https://github.com/christoomey/vim-tmux-navigator) - Let's me move between vim and tmux panes easily
+- [Vim wiki](https://github.com/vimwiki/vimwiki) - Testing this one out since `nb` is running slow on my machine. Combo with `frogmouth` for viewing.
+
 
 ## Nvim
 
