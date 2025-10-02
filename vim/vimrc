@@ -1,14 +1,8 @@
 " Based on https://vim.fandom.com/wiki/Example_vimrc
 " --- General behavior
 set nocompatible
-
-if has('filteype')
-    filetype indent plugin on
-endif
-
-if has('syntax')
-    syntax on
-endif
+filetype plugin on
+syntax on
 
 " Remove the back up file
 set nobackup
@@ -51,6 +45,9 @@ set smartcase
 
 " Incremental searching
 set incsearch
+
+" Clear search after hitting enter
+nnoremap <CR> :noh <CR><CR>
 
 " Backspace over autoindent, line breaks, start of insert
 set backspace=indent,eol,start
@@ -95,3 +92,9 @@ set showmatch
 " --- Mappings
 " Turn off highlight until next search
 nnoremap <C-L> :nohl<CR><C-L>
+
+" Leader key
+let mapleader = "\<Space>"
+
+" -- Vimwiki
+let g:vimwiki_list = [{"path": "~/Documents/notes"}]
