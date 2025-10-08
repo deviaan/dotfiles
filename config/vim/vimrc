@@ -3,6 +3,7 @@
 set nocompatible
 filetype plugin on
 syntax on
+set termguicolors
 
 " Remove the back up file
 set nobackup
@@ -71,7 +72,13 @@ set expandtab
 set smarttab
 
 " OK default colorscheme
-colorscheme sorbet 
+" colorscheme sorbet 
+
+" Tokyo night
+let g:tokyonight_style = 'night'
+let g:tokyonight_enable_italic = 1
+
+colorscheme tokyonight
 
 " Show mode in status line
 set showmode

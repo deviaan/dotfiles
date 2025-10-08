@@ -11,16 +11,17 @@ ie: `/data/data/com.termux/files/home`
 ## Vim
 
 Vimrc made from piecing together options I've had throughout the years.
-For tmxu integration, use `git clone git@github.com:christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator`
+For tmxu integration, use `git clone git@github.com:christoomey/vim-tmux-navigator.git ~/.config/vim/pack/plugins/start/vim-tmux-navigator`
 
 `ln -s dotfiles/vim/vimrc ~/.vimrc`
 
 ### Installing Plugins
 
-You no longer need a plugin manager for plugins using Vim 8+. Instead, just clone any plugins into .vim/pack/start and restart vim.
+You no longer need a plugin manager for plugins using Vim 8+. Instead, just clone any plugins into .config/vim/pack/start and restart vim.
 
 - [Tmux navigator](https://github.com/christoomey/vim-tmux-navigator) - Let's me move between vim and tmux panes easily
 - [Vim wiki](https://github.com/vimwiki/vimwiki) - Testing this one out since `nb` is running slow on my machine. Combo with `frogmouth` for viewing.
+- [Tokyo Night vim](https://github.com/ghifarit53/tokyonight-vim) - not quite the same as the nvim one, but still pretty good
 
 
 ## Nvim
@@ -58,6 +59,5 @@ Basic config from using the [docs](https://wezterm.org/config/files.html#configu
 Link: `ln -s dotfiles/wezterm ~/.config/wezterm`
 
 ### Todo:
-- [ ] convert everything to use .config
-- [ ] add instructions for nb
+- [x] convert everything to use .config
 - [ ] shell script/make file to install everything
