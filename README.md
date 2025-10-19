@@ -58,6 +58,10 @@ Basic config from using the [docs](https://wezterm.org/config/files.html#configu
 
 Link: `ln -s dotfiles/wezterm ~/.config/wezterm`
 
+## Scripts
+
+The `/bin/` directory has scripts that I find useful.  Make sure to add it to your path.
+
 ### Todo:
 - [x] convert everything to use .config
 - [ ] shell script/make file to install everything
